@@ -1,4 +1,5 @@
 /* Your styles here */
+/* GENERAL */
 * {
     box-sizing: border-box;
 }
@@ -11,6 +12,7 @@ body {
     color: #393d41;
 }
 
+/* HEADER */
 h1, h2 {
     font-family: "Montserrat", sans-serif;
     line-height: 1.5;
@@ -28,6 +30,7 @@ header img {
     width: 150px;
 }
 
+/* MAIN - BANNER */
 #banner {
     text-align: center;
     background-image: url(../images/banner.jpg);
@@ -59,6 +62,7 @@ header img {
     border-radius: 5px;
 }
 
+/* MAIN - ARTICLE */
 main article {
     text-align: center;
     padding: 3em;
@@ -74,6 +78,7 @@ main article img {
     margin-bottom: 1.5em;
 }
 
+/* TESTIMONIALS */
 #testimonials {
     background-color: #e22d0e;
     color: white;
@@ -103,6 +108,7 @@ main article img {
     display: inline-block;
 }
 
+/* SECTION */
 section {
     padding: 2em 1em;
     text-align: center;
@@ -125,6 +131,7 @@ section div p {
     padding: 1em;
 }
 
+/* FOOTER */
 footer {
     text-align: center;
     background-color: #25a2c3;
@@ -161,4 +168,8 @@ footer hr {
 footer p {
     font-size: 0.8em;
     padding: 2em 0;
+}
+
+footer i {
+    color: white;
 }
