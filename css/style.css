@@ -1,1 +1,164 @@
 /* Your styles here */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 450px;
+    font-family: "Open Sans", sans-serif;
+    line-height: 1.65;
+    font-size: 1.2em;
+    color: #393d41;
+}
+
+h1, h2 {
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.5;
+    font-weight: bold;
+    color: #25a2c3;
+}
+
+header {
+    background-color: black;
+    text-align: center;
+}
+
+header img {
+    padding: 1.5em 0;
+    width: 150px;
+}
+
+#banner {
+    text-align: center;
+    background-image: url(../images/banner.jpg);
+    padding: 2em;
+    background-size: cover;
+    background-position: center;
+}
+
+#banner h1 {
+    font-size: 1.8em;
+    line-height: 1;
+    padding: 1em;
+}
+
+#banner p {
+    font-size: 1em;
+    padding: 0 1em;
+    margin-bottom: 1em;
+}
+
+#banner button {
+    background-color: #f04c2f;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 1.2em 2em;
+    border: 0;
+    border-radius: 5px;
+}
+
+main article {
+    text-align: center;
+    padding: 3em;
+}
+
+main article h2, p {
+    margin-bottom: 1.5em;
+}
+
+main article img {
+    width: 80%;
+    border-radius: 50%;
+    margin-bottom: 1.5em;
+}
+
+#testimonials {
+    background-color: #e22d0e;
+    color: white;
+    text-align: center;
+}
+
+#testimonials h2 {
+    color: white;
+    font-size: 1.5em;
+    padding-top: 2em;
+    margin-bottom: 1.5em;
+}
+
+#testimonials p:first-of-type {
+    margin-bottom: 0;
+    font-size: 1.2em;
+}
+
+#testimonials p:last-of-type {
+    padding-bottom: 2em;
+    font-size: 0.8em;
+}
+
+#testimonials cite {
+    font-style: italic;
+    margin-bottom: 1.5em;
+    display: inline-block;
+}
+
+section {
+    padding: 2em 1em;
+    text-align: center;
+
+}
+
+section div {
+    border: 1px solid #dee1e3;
+}
+
+section img {
+    width: 100%;
+}
+
+section div h2 {
+    padding-top: 1em;
+}
+
+section div p {
+    padding: 1em;
+}
+
+footer {
+    text-align: center;
+    background-color: #25a2c3;
+    color: #c8e7f0;
+}
+
+footer span a {
+    margin: 0 5px;
+}
+
+footer a {
+    color: #c8e7f0;
+}
+
+footer h2 {
+    color: white;
+    font-size: 2em;
+    padding: 1em;
+}
+
+footer span {
+    display: block;
+}
+
+footer span:last-of-type {
+    padding-bottom: 1.5em;
+}
+
+footer hr {
+    color: #c8e7f0;
+    width: 50%;
+}
+
+footer p {
+    font-size: 0.8em;
+    padding: 2em 0;
+}
