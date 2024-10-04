@@ -67,17 +67,26 @@ main article {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
 }
 
 main article p {
     margin-bottom: 1.5em;
 }
 
-#container {
+main article div:nth-of-type(1) {
     display: inline-block;
-    width: 50%;
-    margin: 1.5em 0;
-    padding: 2em 0;
+    width: 40%;
+}
+
+main article div:nth-of-type(1) img {
+    width: 80%;
+}
+
+main article div:nth-of-type(2) {
+    text-align: left;
+    display: inline-block;
+    width: 40%;
 }
 
 main article img {
